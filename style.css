@@ -1,0 +1,67 @@
+.content {
+    margin: auto;
+    max-width: 1000px;
+    background-image: url("image/icon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    border: 2px solid red; /* Temporary for testing, you can remove this */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.address {
+    height: 44px; 
+    width: 341px;
+    margin: auto;
+    padding: 5px; /* Added padding to make it look neat */
+    border-radius: 5px; /* Smooth corners for input */
+    border: 1px solid #ccc; /* Light border */
+}
+
+.buttons {
+    margin: auto;
+    width: 600px;
+    font-size: 18px; /* Reduced font-size for better readability */
+    padding: 14px 28px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    font-size: 18px; /* Setting font size for buttons */
+    padding: 10px 20px; /* Adding padding for button size */
+    border: none;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border-radius: 5px; /* Smooth corners for buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.buttons button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.buttons button:active {
+    background-color: #3e8e41; /* Even darker green on click */
+}
+fieldset {
+    border: 2px solid #4CAF50; /* Green border for fieldset */
+    border-radius: 10px; /* Rounded corners for fieldset */
+    padding: 20px; /* Added padding for inner content spacing */
+    margin-bottom: 20px; /* Space between fieldsets */
+    background-color: #f9f9f9; /* Light background color for fieldset */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+}
+
+legend {
+    font-size: 1.5rem; /* Larger font size for the legend */
+    font-weight: bold; /* Make the legend text bold */
+    color: #4CAF50; /* Green color for the legend */
+    padding: 0 10px; /* Padding for the legend for better alignment */
+    border-radius: 5px; /* Rounded corners for the legend */
+    background-color: #f1f1f1; /* Light background color for the legend */
+}
+
+

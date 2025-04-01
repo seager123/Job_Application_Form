@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+ 	<html lang="eng">
+ 		<head>
+ 			<link rel="icon" href= "image/icon.png">
+ 			<link rel ="stylesheet" href="style.css">
+ 			<title> Job Application Form</title>
+ 		</head>
+ 		
+ 		<body>
+ 		<div class="content">
+ 			<h1> Job Application Form</h1>
+ 			
+ 			<fieldset>
+ 			<legend> Personal Details</legend>
+ 				<form>
+ 			<label for = "first-name">First-Name &nbsp;<input type ="text" id="first-name" placeholder="First-name"></label>
+ 			<label for = "middle-name">Middle-Name &nbsp;<input type ="text" id="middle-name" placeholder="Middle-name"></label>
+ 			<label for = "last-name">Last-Name &nbsp;<input type ="text" id="last-name" placeholder="Last-name"></label><br><br>
+ 			
+ 		<label for = "contact-details">Contact-Details &nbsp;<input type ="tel" id="number" placeholder="Mobile Number"></label>
+ 		<label for="email">E-mail <input type="email" id="email" placeholder ="demo@gmail.com">	
+ 		<label for ="birth-date">Date of Birth <input id="dob" type="date"></label><br><br>
+ 		
+ 		Sex:
+ 		<label for ="male"><input id="male" type="radio" name="sex" value="M">Male</label>
+ 		<label for ="female"><input id="female" type="radio" name="sex" value="F">Female</label>
+ 		<label for ="others"><input id="others" type="radio" name="sex" value="O">Others</label><br><br>				
+ 		<label for = "permanenet-address">Permanent Address <textarea rows="10" cols="30" style="height: 44px; width: 341px;">Type your full Permanent Address</textarea></label>
+ 		
+ 		<label for="current-address"> Rsidential Address <textarea rows="10" cols="30" style="height: 48px; width: 345px;">Type your current residential address</textarea></label><br><br>
+ 		
+ 		Are you legally eligible to work in the US?
+ 		<label for ="eligiblity"><input id="elgible" type="radio" name="eligiblity-check" value="yes">Yes</label>
+ 		<label for ="not-eligiblity"><input id="not-elgible" type="radio" name="eligiblity-check" value="no">No</label><br><br>
+ 		
+ 		<label for ="position">Position you are applying for <input id="position" type="text" placeholder="Senior Manager"></label>
+ 		
+ 		&nbsp;&nbsp;&nbsp;&nbsp;Employement Desired:
+ 		<label for="part-time"><input id="part-time" type="radio" name="desired-type" value="part-time">Part-Time</label>
+ 		<label for="full-time"><input id="full-time" type="radio" name="desired-type" value="full-time">full-Time</label>
+ 		<label for="temporary"><input id="temporary" type="radio" name="desired-type" value="temporary">Seasonal/Temporary</label><br><br>
+ 		
+ 		<label for="expected-salary">Expected Salary(In INR)<input id="expectation" type="number"></label>
+ 		<label for ="file-upload"> &nbsp;&nbsp;&nbsp;Upload-Resume(.doc/.pdf/.word)&nbsp;&nbsp;<input id="file-upload" type ="file" accept=".pdf,.doc,.word"></label>						
+ 			
+ 			</fieldset>
+ 			<fieldset>
+ 			<legend>Employement Details</legend>
+ 			<div class="employement-details">
+ 			<label for="employer-1">Employer-1&nbsp;&nbsp;<input id ="employer-1 type="text" placeholder="Organization Name"></label>
+ 			<label for ="Position1"> Job-Title<input id ="position1" type="text" Placeholder ="Senior Manager"></label>
+ 			<label for = "joining-date1"> Joining Date<input id ="joining-date1" type="date"></label>
+ 			<label for = "last-date1"> Last Date<input id ="last-date1" type="date"></label><br><br>
+ 			
+ 			<label for="employer-2">Employer-2&nbsp;&nbsp;<input id ="employer-2 type="text" placeholder="Organization Name"></label>
+ 			<label for ="Position2"> Job-Title<input id ="position2" type="text" Placeholder ="Senior Manager"></label>
+ 			<label for = "joining-date2"> Joining Date<input id ="joining-date2" type="date"></label>
+ 			<label for = "last-date2"> Last Date<input id ="last-date2" type="date"></label><br><br>
+ 			
+ 			<label for="employer-3">Employer-3&nbsp;&nbsp;<input id ="employer-3 type="text" placeholder="Organization Name"></label>
+ 			<label for ="Position3"> Job-Title<input id ="position3" type="text" Placeholder ="Senior Manager"></label>
+ 			<label for = "joining-date3"> Joining Date<input id ="joining-date3" type="date"></label>
+ 			<label for = "last-date3"> Last Date<input id ="last-date3" type="date"></label><br><br>
+ 			
+ 			<label for="employer-4">Employer-4&nbsp;&nbsp;<input id ="employer-4 type="text" placeholder="Organization Name"></label>
+ 			<label for ="Position4"> Job-Title<input id ="position4" type="text" Placeholder ="Senior Manager"></label>
+ 			<label for = "joining-date4"> Joining Date<input id ="joining-date4" type="date"></label>
+ 			<label for = "last-date4"> Last Date<input id ="last-date4" type="date"></label>
+ 			
+ 			</div>
+ 			</fieldset>
+ 			
+ 			<fieldset>
+ 				<legend>Educational Details</legend>
+ 				<div class="educational">
+ 					<label for = "qualification1"> Qualification 1&nbsp;&nbsp;&nbsp;<input type ="text" list="qlist1">
+ 					   <datalist id="qlist1">
+ 						<option>Bachelor of Engineering(B.E.)</option>
+ 						<option>B.Tech</option>
+ 						<option>M.Tech</option>
+ 						<option>MBA</option>
+ 						<option>Arts</option>
+ 						<option>Commerce</option>						
+ 					   </datalist>
+ 					   </label>
+ 					
+ 					<label for ="marks1"> &nbsp;&nbsp;Percentage of marks <input id="marks1" type= "number"></label>
+ 					<label for ="passing-year1"> &nbsp;&nbsp;Year Of Passing <input id="passing-year1" type="month"></label><br><br>
+ 				       
+ 				      
+ 					<label for = "qualification2"> Qualification 2&nbsp;&nbsp;&nbsp;<input type ="text" list="qlist1">
+ 					   <datalist id="qlist1">
+ 					  </datalist></label>
+ 					
+ 					<label for ="marks2"> &nbsp;&nbsp;Percentage of marks <input id="marks2" type= "number"></label>
+ 					<label for ="passing-year2"> &nbsp;&nbsp;Year Of Passing <input id="passing-year2" type="month"></lable><br><br>
+ 				
+ 				    
+ 					<label for = "qualification3"> Qualification 3&nbsp;&nbsp;&nbsp;<input type ="text" list="qlist1">
+ 					   <datalist id="qlist1">
+ 					  </datalist></label>
+ 					
+ 					<label for ="marks3"> &nbsp;&nbsp;Percentage of marks <input id="marks3" type= "number"></label>
+ 					<label for ="passing-year3"> &nbsp;&nbsp;Year Of Passing <input id="passing-year3" type="month"></label>
+ 				</div>
+ 			</fieldset>
+ 			<div class="buttons">
+ 			       <button type="submit" value="Submit">Submit</button>
+ 				<button type="reset" value="Reset">Reset</button>
+ 			</div>
+ 				</form>
+ 		</div>
+ 		</body>
+ 	</html>
+ 	
